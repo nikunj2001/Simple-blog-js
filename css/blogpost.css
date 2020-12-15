@@ -1,0 +1,41 @@
+.post-img{
+    height: 700px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.post-img img{
+    width: 100%;
+    height: 700px;
+
+}
+.blog-post-content{
+    text-align: center;
+    background-color: paleturquoise;
+}
+.blog-post-content p{
+    font-size: 25px;
+}
+.blog-post-content h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column;
+    align-items: center;
+}
+.blogpost-meta{
+    display: flex; 
+    justify-content: space-between;  
+}
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+        padding: 4px 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social img{
+    cursor: pointer;
+}
